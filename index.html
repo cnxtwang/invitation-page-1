@@ -8,11 +8,11 @@
   <div class="container">
     <header>
       <h1>Invite people to Dribbble</h1>
-      <p><span id="availableNumber">3</span> invites available</p>
+      <p><span id="availableNumber"></span> invites available</p>
 
       <div class="search-bar">
-        <input type="text">
-        <img src="./src/static/search.png" alt="search">
+        <input type="text" id="search">
+        <label for="search"><img src="./src/static/search.png" alt="search"></label>
       </div>
     </header>
 
@@ -62,11 +62,9 @@
       </div>
 
       <footer>
-        <input type="text" placeholder="Send invite by e-mail">
+        <input type="text" placeholder="Send invite by e-mail" id="eMail">
 
-        <button>
-          invite
-        </button>
+        <button id="invite">invite</button>
       </footer>
     </main>
   </div>
